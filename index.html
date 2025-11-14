@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Thank You Message</title>
+
+  <style>
+    :root{
+      --bg:#0f1724;
+      --card:#111827;
+      --accent:#06b6d4;
+      --text:#e6eef6;
+      --muted:#9fb3c9;
+      --radius:14px;
+      font-family: Inter, Arial, sans-serif;
+    }
+
+    body{
+      margin:0;
+      background:linear-gradient(180deg,#071024, var(--bg));
+      color:var(--text);
+      height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:20px;
+    }
+
+    .card{
+      max-width:700px;
+      width:100%;
+      padding:28px;
+      background:rgba(255,255,255,0.04);
+      border:1px solid rgba(255,255,255,0.05);
+      border-radius:var(--radius);
+      box-shadow:0 8px 30px rgba(0,0,0,0.4);
+      backdrop-filter:blur(6px);
+    }
+
+    h1{
+      font-size:22px;
+      margin:0 0 12px;
+      color:var(--accent);
+      text-align:center;
+    }
+
+    .message{
+      font-size:18px;
+      line-height:1.6;
+      white-space:pre-wrap;
+      color:var(--text);
+      margin-top:10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>Thank You, Sir</h1>
+
+    <div class="message">
+Thank you so much, Sir.
+In my 1st semester, you introduced me to Java programming
+and taught me how to apply it in real life to solve problems.
+I truly appreciate your guidance.
+    </div>
+  </div>
+</body>
+</html>
